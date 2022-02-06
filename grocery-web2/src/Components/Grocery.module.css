@@ -1,0 +1,47 @@
+.list {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  width: 200px; */
+
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding: 2vh;
+  width: 250px;
+  border-radius: 50px 0px;
+  margin: 1vh;
+}
+.list > div {
+  background-color: aquamarine;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  padding: 2vh;
+  color: white;
+  margin-left: 2vh;
+  border-radius: 10px;
+  width: 100px;
+}
+.text {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  padding: 2vh;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  padding: 1vh;
+  border: 1px solid red;
+  outline: none;
+}
